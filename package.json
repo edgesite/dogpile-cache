@@ -1,0 +1,26 @@
+{
+  "name": "dogpile-cache",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {},
+  "keywords": [
+    "cache",
+    "dogpile",
+    "redis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lru-cache": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/ioredis": "^4.28.1",
+    "@types/lru-cache": "^5.1.1",
+    "@types/node": "^16.11.7",
+    "ioredis": "^4.28.0",
+    "msgpackr": "^1.5.0"
+  },
+  "peerDependencies": {
+    "ioredis": "^4.28.0"
+  }
+}
